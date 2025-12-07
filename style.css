@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#hud {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+#restartBtn {
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
